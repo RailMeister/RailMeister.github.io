@@ -9,13 +9,6 @@ title: What's Jekyll?
 
 You can use any __Markdown__ formatting that can be used with _GitHub Flavored Markdown_. You can do __BOLD__, _italic_, `code`, and others, like:
 
-###### Tables:
-| Tables | Are    | Cool  |
-| ------ | ------ | ----- |
-| Coffee | Large  | $2.50 |
-| Tea    | Small  | $1.50 |
-| Soda   | XLarge | $3.00 |
-
 ###### Lists:
 - This
 - Is
