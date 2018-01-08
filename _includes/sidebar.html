@@ -32,28 +32,30 @@
       No &copy;. Just don't copy.
     </p>
   </div>
-  {% if site.facebook %}
-    <a class="sidebar-nav-item" href="https://www.facebook.com/{{ site.facebook }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/facebook.svg">
-      Facebook
-    </a>
-  {% endif %}
-  {% if site.twitter %}
-    <a class="sidebar-nav-item" href="https://www.twitter.com/{{ site.twitter }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/twitter.svg">
-      Twitter
-    </a>
-  {% endif %}
-  {% if site.snapchat %}
-    <a class="sidebar-nav-item" href="https://www.snapchat.com/add/{{ site.snapchat }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/snapchat.svg">
-      Snapchat
-    </a>
-  {% endif %}
-  {% if site.dribbble %}
-    <a class="sidebar-nav-item" href="https://www.dribbble.com/{{ site.dribbble }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/dribbble.svg">\
-      Dribbble
-    </a>
-  {% endif %}
+  <div class="sidebar-nav">
+    {% if site.facebook %}
+      <a class="sidebar-nav-item" href="https://www.facebook.com/{{ site.facebook }}">
+        <img class="social-button" src="{{ site.baseurl }}/public/social/facebook.svg">
+        Facebook
+      </a>
+    {% endif %}
+    {% if site.twitter %}
+      <a class="sidebar-nav-item" href="https://www.twitter.com/{{ site.twitter }}">
+        <img class="social-button" src="{{ site.baseurl }}/public/social/twitter.svg">
+        Twitter
+      </a>
+    {% endif %}
+    {% if site.snapchat %}
+      <a class="sidebar-nav-item" href="https://www.snapchat.com/add/{{ site.snapchat }}">
+        <img class="social-button" src="{{ site.baseurl }}/public/social/snapchat.svg">
+        Snapchat
+      </a>
+    {% endif %}
+    {% if site.dribbble %}
+      <a class="sidebar-nav-item" href="https://www.dribbble.com/{{ site.dribbble }}">
+        <img class="social-button" src="{{ site.baseurl }}/public/social/dribbble.svg">\
+        Dribbble
+      </a>
+    {% endif %}
+  </div>
 </div>

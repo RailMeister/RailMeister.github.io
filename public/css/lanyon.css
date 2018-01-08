@@ -565,5 +565,5 @@ a.pagination-item:hover {
 .social-button{
   max-width: 18px;
   max-height: 18px;
-  display: inline-block;
+  display: inline;
 }
