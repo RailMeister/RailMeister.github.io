@@ -39,3 +39,12 @@ if(bob.isTalking){
     landon.giveSpeech('manners');
 }
 ```
+
+###### Images:
+![My avatar](http://image.ibb.co/nA3U2R/avatar_1_400.png)
+
+###### Blockquotes:
+> Someone really important said this.
+
+##### Final Thoughts
+If you have any other suggestions, tips, or Markdown tidbits, feel free to email me at [railinator4903@gmail.com](mailto:railinator4903@gmail.com)
