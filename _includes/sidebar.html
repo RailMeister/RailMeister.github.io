@@ -32,4 +32,36 @@
       No &copy;. Just don't copy.
     </p>
   </div>
+  {% if site.facebook %}
+    <div class="sidebar-item">
+      <img class="social-button" src="{{ site.baseurl }}/public/social/facebook.svg">
+      <p>
+        <a href="https://www.facebook.com/{{ site.facebook }}">Facebook</a>
+      </p>
+    </div>
+  {% endif %}
+  {% if site.twitter %}
+    <div class="sidebar-item">
+      <img class="social-button" src="{{ site.baseurl }}/public/social/twitter.svg">
+      <p>
+        <a href="https://www.twitter.com/{{ site.twitter }}">Twitter</a>
+      </p>
+    </div>
+  {% endif %}
+  {% if site.snapchat %}
+    <div class="sidebar-item">
+      <img class="social-button" src="{{ site.baseurl }}/public/social/snapchat.svg">
+      <p>
+        <a href="https://www.snapchat.com/add/{{ site.snapchat }}">Snapchat</a>
+      </p>
+    </div>
+  {% endif %}
+  {% if site.dribbble %}
+    <div class="sidebar-item">
+      <img class="social-button" src="{{ site.baseurl }}/public/social/dribbble.svg">
+      <p>
+        <a href="https://www.dribbble.com/{{ site.dribbble }}">Dribbble</a>
+      </p>
+    </div>
+  {% endif %}
 </div>
