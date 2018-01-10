@@ -8,7 +8,7 @@ title:               Railor Blog
 tagline:             'Where thoughts become writing.'
 description:         'This is my blog where I share code ideas and (maybe) tutorials. It is also a way for me to connect with readers through writing.'
 url:                 http://www.railor-blog.me
-baseurl:             ''
+baseurl:             'http://www.railor-blog.me'
 paginate:            5
 
 # About/contact
