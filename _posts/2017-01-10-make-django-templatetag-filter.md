@@ -61,7 +61,41 @@ def emoji(value):
 ```
 
 Next \(still inside the emoji function\), you want to initialize a `for` loop that goes through the content and replaces every substring that matches each key in the emoji dictionary with its respective value. you can accomplish that like this:
+
 ```python
 for key, value in emoji.iteritems():
   output = output.replace(key, value)
 ```
+
+Finish the filter like this:
+
+```python
+return output
+```
+
+Aaaand you're done!
+
+#### Here's the completed code
+
+```python
+from django import template
+from django.template.defaultfilters import stringfilter
+
+register = template.Library()
+
+emoji = {
+  # YOUR EMOJIS HERE
+}
+
+@register.filter(name='emoji')
+@stringfilter
+def delete(value):
+  output = value
+  for key, value in emoji.iteritems():
+    output = output.replace(key, value)
+  return output
+```
+
+#### Final thoughts:
+
+If you have any tips on this topic or would like to suggest a topic for my next post, you can email me at [railinator4903@gmail.com](mailto:railinator4903@gmail.com).
