@@ -89,7 +89,7 @@ emoji = {
 
 @register.filter(name='emoji')
 @stringfilter
-def delete(value):
+def emoji(value):
   output = value
   for key, value in emoji.iteritems():
     output = output.replace(key, value)

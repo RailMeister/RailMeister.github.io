@@ -14,7 +14,7 @@ paginate:            5
 # About/contact
 author:
   name:              Landon Gravat
-  url:               https://twitter.com/mdo
+  url:               https://twitter.com/Railor_Music
   email:             railinator4903@gmail.com
 
 # Custom vars
@@ -26,3 +26,5 @@ snapchat: railrunner166
 dribbble: RailRunner16
 gplus: 
 behance: railinator483c
+
+avatar: 'http://image.ibb.co/nA3U2R/avatar_1_400.png'
