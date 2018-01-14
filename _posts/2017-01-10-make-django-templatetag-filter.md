@@ -7,7 +7,7 @@ Have you ever wanted to create a templatetag filter for Django? This is a guide 
 
 Django makes things a heck of a lot easier when you know how to use it. It even provides a library of code that you can use to make filters and template tags that integrate directly with Django.
 
-#### Setting ourselves up for business:
+### Setting ourselves up for business:
 You can skip this part if you want to add to an existing Django app.
 
 First, let's start a new project. In your terminal:
@@ -21,7 +21,7 @@ Next, you need to build a basic app \(Make sure it is template based\). Then you
 
 Great! Now that we're done with the prep work, we can start building our filter!
 
-#### Building a filter:
+### Building a filter:
 Every filter is just its own Python file located in the `templatetags` directory that is located in the directory of the project you want to use the tags with, in this case it would be located in `filters/templatetags/`.
 
 In that directory, create a file called `emoji_filter.py` and open the file in your favorite text editor, as long as that text editor supports Python. Before we get started coding our emoji filter, we have to import a few things:
@@ -75,7 +75,7 @@ return output
 
 Aaaand you're done!
 
-#### Here's the completed code
+### Here's the completed code
 
 ```python
 from django import template
@@ -96,6 +96,6 @@ def emoji(value):
   return output
 ```
 
-#### Final thoughts:
+### Final thoughts:
 
 If you have any tips on this topic or would like to suggest a topic for my next post, you can email me at [railinator4903@gmail.com](mailto:railinator4903@gmail.com).
