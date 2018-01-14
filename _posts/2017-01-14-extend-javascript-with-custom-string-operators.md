@@ -25,7 +25,7 @@ Then if it passes that test, we want to go ahead and return our True or false va
 };
 ```
 
-## The completed code:
+### The completed code:
 
 ```javascript
 String.prototype.endsWith = (substring) => {
