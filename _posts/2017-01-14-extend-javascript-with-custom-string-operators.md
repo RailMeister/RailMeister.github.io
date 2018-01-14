@@ -21,7 +21,7 @@ Then, if the specified substring has the same length as the string we're operati
 Then if it passes that test, we want to go ahead and return our True or false value and end the function:
 
 ```javascript
-    return this.substr(this.length - substring.length) === substring;
+    return this.substr(this.length-substring.length) === substring;
 };
 ```
 
@@ -30,7 +30,7 @@ Then if it passes that test, we want to go ahead and return our True or false va
 ```javascript
 String.prototype.endsWith = (substring) => {
     if(substring.length > this.length) return false;
-    return this.substr(this.length - substring.length) === substring;
+    return this.substr(this.length-substring.length) === substring;
 };
 ```
 
