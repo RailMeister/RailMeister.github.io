@@ -457,12 +457,12 @@ a.pagination-item:hover {
 .theme-py-book .sidebar,
 .theme-py-book .sidebar-toggle:active,
 .theme-py-book #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #668B8B;
+  background-color: #566b30;
 }
 .theme-py-book .container a,
 .theme-py-book .sidebar-toggle,
 .theme-py-book .related-posts li a:hover {
-  color: #668B8B;
+  color: #566b30;
 }
 
 /* Orange */
@@ -575,7 +575,7 @@ a.pagination-item:hover {
 }
 
 .social-button{
-  max-width: 36px;
-  max-height: 36px;
-  display: block;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
 }
