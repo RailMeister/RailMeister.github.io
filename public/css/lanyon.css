@@ -579,3 +579,6 @@ a.pagination-item:hover {
   height: 36px;
   display: inline-block;
 }
+.social-link:hover{
+  text-decoration: none;
+}
