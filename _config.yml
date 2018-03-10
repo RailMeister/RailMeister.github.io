@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Railor Blog
 tagline:             'Where thoughts become writing.'
-description:         'This is my blog where I share code ideas and (maybe) tutorials. It is also a way for me to connect with readers through writing, like any other blog.'
+description:         'This is my blog where I share code ideas and tutorials. I may also share parts of my life, or just funny stuff. It is also a way for me to connect with readers through writing, like any other blog.'
 url:                 'http://www.railor-blog.me'
 baseurl:             'http://www.railor-blog.me'
 paginate:            5
@@ -28,5 +28,6 @@ gplus:
 behance:             railinator483c
 instagram:           railrunner166
 github:              RailRunner16
+soundcloud:          landon-landon-the-awesome-gravat
 
 avatar:              'http://image.ibb.co/nA3U2R/avatar_1_400.png'
