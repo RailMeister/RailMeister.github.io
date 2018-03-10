@@ -32,34 +32,36 @@
       No &copy;. Just don't copy.
     </p>
   </div>
-  {% if site.facebook %}
-    <a href="https://www.facebook.com/{{ site.facebook }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/facebook.svg">
-    </a>
-  {% endif %}
-  {% if site.twitter %}
-    <a href="https://www.twitter.com/{{ site.twitter }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/twitter.svg">
-    </a>
-  {% endif %}
-  {% if site.snapchat %}
-    <a href="https://www.snapchat.com/add/{{ site.snapchat }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/snapchat.svg">
-    </a>
-  {% endif %}
-  {% if site.dribbble %}
-    <a href="https://www.dribbble.com/{{ site.dribbble }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/dribbble.svg">
-    </a>
-  {% endif %}
-  {% if site.behance %}
-    <a href="https://www.behance.net/{{ site.behance }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/behance.svg">
-    </a>
-  {% endif %}
-  {% if site.instagram %}
-    <a href="https://www.instagram.com/{{ site.instagram }}">
-      <img class="social-button" src="{{ site.baseurl }}/public/social/instagram.svg">
-    </a>
-  {% endif %}
+  <div class="sidebar-item">
+    {% if site.facebook %}
+      <a href="https://www.facebook.com/{{ site.facebook }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/facebook.svg">
+      </a>
+    {% endif %}
+    {% if site.twitter %}
+      <a href="https://www.twitter.com/{{ site.twitter }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/twitter.svg">
+      </a>
+    {% endif %}
+    {% if site.snapchat %}
+      <a href="https://www.snapchat.com/add/{{ site.snapchat }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/snapchat.svg">
+      </a>
+    {% endif %}
+    {% if site.dribbble %}
+      <a href="https://www.dribbble.com/{{ site.dribbble }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/dribbble.svg">
+      </a>
+    {% endif %}
+    {% if site.behance %}
+      <a href="https://www.behance.net/{{ site.behance }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/behance.svg">
+      </a>
+    {% endif %}
+    {% if site.instagram %}
+      <a href="https://www.instagram.com/{{ site.instagram }}">
+        <img class="social-button" style="margin:0;" src="{{ site.baseurl }}/public/social/instagram.svg">
+      </a>
+    {% endif %}
+  </div>
 </div>
